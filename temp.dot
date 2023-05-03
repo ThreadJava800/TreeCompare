@@ -1,8 +1,8 @@
 digraph tree {
 	rankdir=HR;
-	label0x55ee5af7ff70[shape=record, style="rounded, filled", fillcolor=red, label="{ {val: 56 | height: 0  | {left: 0x55ee5af7ff10 | right: 0x55ee5af7ff50} }}"];
-	label0x55ee5af7ff10[shape=record, style="rounded, filled", fillcolor=red, label="{ {val: 12 | height: 0  | {left: (nil) | right: 0x55ee5af7fed0} }}"];
-	label0x55ee5af7fed0[shape=record, style="rounded, filled", fillcolor=red, label="{ {val: 15 | height: 0  | {left: (nil) | right: (nil)} }}"];
-	label0x55ee5af7ff50[shape=record, style="rounded, filled", fillcolor=red, label="{ {val: 89 | height: 0  | {left: (nil) | right: 0x55ee5af7fef0} }}"];
-	label0x55ee5af7fef0[shape=record, style="rounded, filled", fillcolor=red, label="{ {val: 189 | height: 0  | {left: (nil) | right: (nil)} }}"];
-	label0x55ee5af7ff70->label0x55ee5af7ff10 [color="red", style="dashed",arrowhead="none"]	label0x55ee5af7ff70->label0x55ee5af7ff50 [color="red", style="dashed",arrowhead="none"]	label0x55ee5af7ff10->label0x55ee5af7fed0 [color="red", style="dashed",arrowhead="none"]	label0x55ee5af7ff50->label0x55ee5af7fef0 [color="red", style="dashed",arrowhead="none"]}
+	label0x555c60ab0f00[shape=record, style="rounded, filled", fillcolor=red, label="{ {val: 14  | {left: 0x555c60ab0f90 | right: 0x555c60ab0fc0 | parent: (nil) | cur: 0x555c60ab0f00} }}"];
+	label0x555c60ab0f90[shape=record, style="rounded, filled", fillcolor=red, label="{ {val: -100  | {left: (nil) | right: 0x555c60ab0ed0 | parent: 0x555c60ab0f00 | cur: 0x555c60ab0f90} }}"];
+	label0x555c60ab0f00->label0x555c60ab0f90 [color="blue", style="dashed",arrowhead="none"]	label0x555c60ab0ed0[shape=record, style="rounded, filled", fillcolor=red, label="{ {val: 10  | {left: 0x555c60ab0f60 | right: (nil) | parent: 0x555c60ab0f90 | cur: 0x555c60ab0ed0} }}"];
+	label0x555c60ab0f90->label0x555c60ab0ed0 [color="blue", style="dashed",arrowhead="none"]	label0x555c60ab0f60[shape=record, style="rounded, filled", fillcolor=red, label="{ {val: -1  | {left: (nil) | right: (nil) | parent: 0x555c60ab0ed0 | cur: 0x555c60ab0f60} }}"];
+	label0x555c60ab0ed0->label0x555c60ab0f60 [color="blue", style="dashed",arrowhead="none"]	label0x555c60ab0fc0[shape=record, style="rounded, filled", fillcolor=red, label="{ {val: 123  | {left: (nil) | right: (nil) | parent: 0x555c60ab0f00 | cur: 0x555c60ab0fc0} }}"];
+	label0x555c60ab0f00->label0x555c60ab0fc0 [color="blue", style="dashed",arrowhead="none"]	label0x555c60ab0f00->label0x555c60ab0f90 [color="green", style="dashed",arrowhead="none"]	label0x555c60ab0f00->label0x555c60ab0fc0 [color="red", style="dashed",arrowhead="none"]	label0x555c60ab0f90->label0x555c60ab0ed0 [color="red", style="dashed",arrowhead="none"]	label0x555c60ab0ed0->label0x555c60ab0f60 [color="green", style="dashed",arrowhead="none"]}

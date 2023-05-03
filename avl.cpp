@@ -376,7 +376,7 @@ int main() {
         int measureData[1000000] = {};
  
         for (int j = 0; j < i; j++) {
-            measureData[j] = j;
+            measureData[j] = rand();
         }
 
         double allTime = 0;
