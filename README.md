@@ -5,6 +5,8 @@
 2. [AVL-дерево](#avl)
 3. [Декартово дерево](#treap)\
 4. [Splay дерево](#splay)
+5. [Skip list](#list)
+6. [Заключение](#end)
 
 ## Наивное двоичное дерево поиска <a name="bin"></a>
 Сначала было произведено 100000 добавление случайных данных в дерево.\
@@ -46,3 +48,12 @@
 
 ![addrand](https://github.com/ThreadJava800/TreeCompare/blob/main/graphs/splayAdd.png)\
 ![delrand](https://github.com/ThreadJava800/TreeCompare/blob/main/graphs/splayDel.png)
+
+## Skip list <a name="list"></a>
+В заключение рассмотрим производительность Skip list. Его работа не так стабильна, т.к. с иногда требуется дополнительное время на выделение памяти для создания нового уровня. Это особенно видно на графике с удалением.
+
+![addrand](https://github.com/ThreadJava800/TreeCompare/blob/main/graphs/skipAdd.png)\
+![delrand](https://github.com/ThreadJava800/TreeCompare/blob/main/graphs/skipDel.png)
+
+## Заключение <a name="end"></a>
+Выбор, какое дерево использовать зависит от целей. Операции в AVL и в наивном дереве поиска работают быстрее, чем в остальных деревьев. Однако вырастает вероятность вырождения в бамбук, из-за чего поиск по дереву может работать дольше, чем в том же Splay-дереве, высота которого не превышает log(n) + 1.
