@@ -1,0 +1,8 @@
+digraph tree {
+	rankdir=HR;
+	label0x55ee5af7ff70[shape=record, style="rounded, filled", fillcolor=red, label="{ {val: 56 | height: 0  | {left: 0x55ee5af7ff10 | right: 0x55ee5af7ff50} }}"];
+	label0x55ee5af7ff10[shape=record, style="rounded, filled", fillcolor=red, label="{ {val: 12 | height: 0  | {left: (nil) | right: 0x55ee5af7fed0} }}"];
+	label0x55ee5af7fed0[shape=record, style="rounded, filled", fillcolor=red, label="{ {val: 15 | height: 0  | {left: (nil) | right: (nil)} }}"];
+	label0x55ee5af7ff50[shape=record, style="rounded, filled", fillcolor=red, label="{ {val: 89 | height: 0  | {left: (nil) | right: 0x55ee5af7fef0} }}"];
+	label0x55ee5af7fef0[shape=record, style="rounded, filled", fillcolor=red, label="{ {val: 189 | height: 0  | {left: (nil) | right: (nil)} }}"];
+	label0x55ee5af7ff70->label0x55ee5af7ff10 [color="red", style="dashed",arrowhead="none"]	label0x55ee5af7ff70->label0x55ee5af7ff50 [color="red", style="dashed",arrowhead="none"]	label0x55ee5af7ff10->label0x55ee5af7fed0 [color="red", style="dashed",arrowhead="none"]	label0x55ee5af7ff50->label0x55ee5af7fef0 [color="red", style="dashed",arrowhead="none"]}
